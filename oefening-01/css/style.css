@@ -1,0 +1,29 @@
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #3297d9;
+  border-radius: 7px;
+  background-color: #3297d9;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn1:hover {
+  background-color: #216a9e;
+  border-color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btn2:active {
+  color: yellow;
+  background-color: #216a9e;
+  transform: translateY(2px);
+}
+.btn3:focus {
+  outline: 3px solid orange;
+}
